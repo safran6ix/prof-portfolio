@@ -17,7 +17,7 @@ function App() {
       description: "Full-featured item management platform, file sharing, typing records, and Todos.",
       tech: ["React", "Node.js", "MongoDB"],
       image: "Item List;",
-      demo: "#",
+      demo: "https://item-manager-skgn.vercel.app/",
       github: "#"
     },
     {
