@@ -41,20 +41,20 @@ function App() {
       description: "Modern developer portfolio with smooth animations, responsive design, and contact form.",
       tech: ["React", "CSS3", "Framer Motion"],
       image: "Portfolio.",
-      demo: "#",
+      demo: "https://prof-portfolio-mu.vercel.app/#",
       github: "https://github.com/safran6ix"
     }
   ];
 
   const skills = [
     { name: "React.js", level: 92 },
-    { name: "Node.js", level: 88 },
+    { name: "Node.js", level: 86 },
     { name: "Express.js", level: 85 },
     { name: "MongoDB", level: 82 },
-    { name: "JavaScript", level: 90 },
+    { name: "JavaScript", level: 92 },
     { name: "TypeScript", level: 75 },
-    { name: "HTML/CSS", level: 88 },
-    { name: "Git/GitHub", level: 85 }
+    { name: "HTML/CSS", level: 98 },
+    { name: "Git/GitHub", level: 90 }
   ];
 
   return (
@@ -185,14 +185,14 @@ function App() {
                 <div className="info-icon">📧</div>
                 <div>
                   <h4>Email</h4>
-                  <a href="mailto:safran@example.com">mohammedsafran6ix@gmail.com</a>
+                  <a href="mailto:mohammedsafran6ix@gmail.com">mohammedsafran6ix@gmail.com</a>
                 </div>
               </div>
               <div className="info-item">
                 <div className="info-icon">📱</div>
                 <div>
-                  <h4>Phone</h4>
-                  <p>+94 702980947</p>
+                  <h4>Phone / wa.me</h4>
+                  <p><a href='https://wa.me/+940702980947?text=contact-from-portfolio!'>+94 702980947</a></p>
                 </div>
               </div>
               <div className="info-item">
