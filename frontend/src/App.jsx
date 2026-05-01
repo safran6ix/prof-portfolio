@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react'; 
 import './App.css';
 
 function App() {
@@ -13,10 +13,10 @@ function App() {
 
   const projects = [
     {
-      title: "Real-Time Chat App",
-      description: "Full-featured messaging platform with private rooms, file sharing, typing indicators, and online status.",
-      tech: ["React", "Node.js", "Socket.io", "MongoDB"],
-      image: "💬",
+      title: "Item Manager",
+      description: "Full-featured item management platform, file sharing, typing records, and Todos.",
+      tech: ["React", "Node.js", "MongoDB"],
+      image: "Item List;",
       demo: "#",
       github: "#"
     },
@@ -24,7 +24,7 @@ function App() {
       title: "TaskFlow Pro",
       description: "Team productivity suite with drag-drop task management, due dates, comments, and email notifications.",
       tech: ["MERN", "Tailwind", "JWT", "Nodemailer"],
-      image: "✅",
+      image: "Task List!",
       demo: "#",
       github: "#"
     },
@@ -32,7 +32,7 @@ function App() {
       title: "E-Commerce API",
       description: "Scalable REST API for online stores with authentication, payments, and admin dashboard.",
       tech: ["Node.js", "Express", "MongoDB", "Stripe"],
-      image: "🛒",
+      image: "E-COM🛒,",
       demo: "#",
       github: "#"
     },
@@ -40,7 +40,7 @@ function App() {
       title: "Portfolio 2024",
       description: "Modern developer portfolio with smooth animations, responsive design, and contact form.",
       tech: ["React", "CSS3", "Framer Motion"],
-      image: "🎨",
+      image: "Portfolio.",
       demo: "#",
       github: "#"
     }
@@ -82,7 +82,7 @@ function App() {
         <div className="hero-container">
           <div className="hero-content">
             <div className="hero-greeting">
-              <span className="wave">👋</span> Hello, I'm
+              <span className="wave"></span> Hello, I'm
             </div>
             <h1 className="hero-title">
               Mohammed <span className="highlight">Safran</span>
