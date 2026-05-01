@@ -18,7 +18,7 @@ function App() {
       tech: ["React", "Node.js", "MongoDB"],
       image: "Item List;",
       demo: "https://item-manager-skgn.vercel.app/",
-      github: "#"
+      github: "https://github.com/safran6ix"
     },
     {
       title: "TaskFlow Pro",
@@ -26,7 +26,7 @@ function App() {
       tech: ["MERN", "Tailwind", "JWT", "Nodemailer"],
       image: "Task List!",
       demo: "#",
-      github: "#"
+      github: "https://github.com/safran6ix"
     },
     {
       title: "E-Commerce API",
@@ -34,7 +34,7 @@ function App() {
       tech: ["Node.js", "Express", "MongoDB", "Stripe"],
       image: "E-COM🛒,",
       demo: "#",
-      github: "#"
+      github: "https://github.com/safran6ix"
     },
     {
       title: "Portfolio 2024",
@@ -42,7 +42,7 @@ function App() {
       tech: ["React", "CSS3", "Framer Motion"],
       image: "Portfolio.",
       demo: "#",
-      github: "#"
+      github: "https://github.com/safran6ix"
     }
   ];
 
@@ -62,7 +62,7 @@ function App() {
       {/* Navigation */}
       <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
         <div className="nav-container">
-          <a href="#home" className="logo">Safran.dev</a>
+          <a href="#home" className="logo">𒆜 Safran.dev</a>
 
           <div className={`nav-menu ${mobileMenuOpen ? 'active' : ''}`}>
             <a href="#home" onClick={() => setMobileMenuOpen(false)}>Home</a>
@@ -185,14 +185,14 @@ function App() {
                 <div className="info-icon">📧</div>
                 <div>
                   <h4>Email</h4>
-                  <a href="mailto:safran@example.com">safran@example.com</a>
+                  <a href="mailto:safran@example.com">mohammedsafran6ix@gmail.com</a>
                 </div>
               </div>
               <div className="info-item">
                 <div className="info-icon">📱</div>
                 <div>
                   <h4>Phone</h4>
-                  <p>+94 XX XXX XXXX</p>
+                  <p>+94 702980947</p>
                 </div>
               </div>
               <div className="info-item">
@@ -207,7 +207,8 @@ function App() {
               <input type="text" placeholder="Your Name" />
               <input type="email" placeholder="Your Email" />
               <textarea rows="5" placeholder="Your Message"></textarea>
-              <button type="submit" className="btn-primary">Send Message →</button>
+              <button type="submit" className="btn-primary">
+                <a href='https://wa.me/+940702980947?text=contact-from-portfolio!'>Send Message →</a></button>
             </form>
           </div>
         </div>
@@ -219,9 +220,9 @@ function App() {
           <div className="footer-content">
             <p>© 2024 Mohammed Safran. All rights reserved.</p>
             <div className="footer-links">
-              <a href="#">GitHub</a>
-              <a href="#">LinkedIn</a>
-              <a href="#">Twitter</a>
+              <a href="https://github.com/safran6ix">GitHub</a>
+              <a href="https://www.linkedin.com/in/safran-mohammed-985a412a0/">LinkedIn</a>
+              <a href="https://youtube.com/codify6ix">YouTube</a>
             </div>
           </div>
         </div>
