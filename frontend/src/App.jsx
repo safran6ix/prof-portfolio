@@ -62,7 +62,7 @@ function App() {
       {/* Navigation */}
       <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
         <div className="nav-container">
-          <a href="#home" className="logo">𒆜 Safran.dev</a>
+          <a href="#home" className="logo"> Safran.dev</a>
 
           <div className={`nav-menu ${mobileMenuOpen ? 'active' : ''}`}>
             <a href="#home" onClick={() => setMobileMenuOpen(false)}>Home</a>
