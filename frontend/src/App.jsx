@@ -50,7 +50,7 @@ function App() {
     { name: "React.js", level: 92 },
     { name: "Node.js", level: 86 },
     { name: "Express.js", level: 85 },
-    { name: "MongoDB", level: 82 },
+    { name: "MongoDB", level: 88 },
     { name: "JavaScript", level: 92 },
     { name: "TypeScript", level: 75 },
     { name: "HTML/CSS", level: 98 },
