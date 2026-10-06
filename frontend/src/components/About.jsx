@@ -2,9 +2,9 @@ import { motion } from 'framer-motion'
 import { FiCode, FiLayers, FiDatabase, FiSmartphone } from 'react-icons/fi'
 
 const stats = [
-    { label: 'Years Coding', value: '3+' },
-    { label: 'Projects Built', value: '15+' },
-    { label: 'Technologies', value: '12+' },
+    { label: 'Year at SLIIT', value: '3rd' },
+    { label: 'Projects Built', value: '10+' },
+    { label: 'Technologies', value: '15+' },
     { label: 'Coffee Cups', value: '∞' },
 ]
 
@@ -39,18 +39,19 @@ export default function About() {
                         className="space-y-5 text-gray-300 leading-relaxed"
                     >
                         <p>
-                            I'm <span className="text-white font-semibold">Mohammed Safran</span>, a passionate
-                            Full-stack Developer based in Sri Lanka 🇱🇰. I love turning complex problems into
-                            simple, elegant, and performant web solutions.
+                            I'm <span className="text-white font-semibold">Mohammed Safran</span>, a Full-Stack Developer
+                            and Year 3 IT undergraduate at <span className="text-cyan-400 font-medium">SLIIT</span>,
+                            specializing in the <span className="text-white font-semibold">MERN stack</span>. I build
+                            AI-powered applications, automation tools, and modern web solutions that solve real-world problems.
                         </p>
                         <p>
-                            Currently pursuing my <span className="text-cyan-400 font-medium">BSc (Hons) in Information Technology
-                                at SLIIT</span>, I blend academic knowledge with real-world development experience — building
-                            everything from responsive websites to full-scale web applications.
+                            Through academic projects and hackathons, I've developed a strong foundation in software
+                            engineering principles, database management, and cloud technologies. I'm passionate about
+                            creating scalable, user-centric software with clean, maintainable code.
                         </p>
                         <p>
                             When I'm not coding, you'll find me exploring new tech, contributing to open source,
-                            or designing 3D visuals in my free time.
+                            or working on side projects to sharpen my skills.
                         </p>
                     </motion.div>
 

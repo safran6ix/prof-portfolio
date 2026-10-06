@@ -38,8 +38,9 @@ export default function Hero() {
                     </h1>
 
                     <p className="text-gray-400 text-lg mb-8 max-w-lg leading-relaxed">
-                        Crafting fast, scalable, and beautiful web applications from front-end
-                        magic to back-end logic. Currently pursuing <span className="text-cyan-400 font-medium">BSc (Hons) IT at SLIIT</span>.
+                        Year 3 IT undergraduate at SLIIT, building AI-powered apps and full-stack
+                        solutions with the <span className="text-cyan-400 font-medium">MERN stack</span>. Passionate about scalable,
+                        user-centric software.
                     </p>
 
                     <div className="flex flex-wrap gap-4 mb-10">
