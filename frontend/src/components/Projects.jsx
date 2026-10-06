@@ -3,32 +3,36 @@ import { FiGithub, FiExternalLink } from 'react-icons/fi'
 
 const projects = [
     {
-        title: 'E-Commerce Platform',
-        desc: 'Full-stack MERN app with auth, cart, Stripe payments, and admin dashboard.',
-        tech: ['React', 'Node.js', 'MongoDB', 'Stripe'],
+        title: 'Real-Time Chat Application',
+        desc: 'Full-stack real-time chat app with instant messaging, separate frontend/backend, and live client-server communication via WebSockets.',
+        tech: ['React.js', 'Node.js', 'Express', 'Socket.IO'],
         color: 'from-purple-600/30 to-pink-600/20',
-        icon: '🛒',
+        icon: '💬',
+        github: 'https://github.com/safran6ix',
     },
     {
-        title: 'Task Manager App',
-        desc: 'Real-time collaborative task board with drag & drop and WebSocket sync.',
-        tech: ['Next.js', 'Socket.io', 'PostgreSQL'],
+        title: 'Ticket Verse System',
+        desc: 'Java-based ticket management system applying core OOP principles to handle booking operations and workflows.',
+        tech: ['Java', 'OOP', 'Collections'],
         color: 'from-cyan-600/30 to-blue-600/20',
-        icon: '📋',
+        icon: '🎫',
+        github: 'https://github.com/safran6ix',
     },
     {
-        title: 'SLIIT Study Hub',
-        desc: 'Student resource portal with notes sharing, past papers, and Q&A forum.',
-        tech: ['React', 'Express', 'MySQL'],
+        title: 'Movie Reservation System',
+        desc: 'Web-based movie reservation & feedback platform with streamlined booking management and customer feedback collection.',
+        tech: ['MERN', 'MongoDB', 'Express'],
         color: 'from-orange-600/30 to-red-600/20',
-        icon: '📚',
+        icon: '🎬',
+        github: 'https://github.com/safran6ix',
     },
     {
-        title: 'Weather Dashboard',
-        desc: 'Location-aware weather app with animated 3D backgrounds and forecasts.',
-        tech: ['React', 'Three.js', 'OpenWeather API'],
+        title: 'Task Management System',
+        desc: 'Full-stack task manager supporting create, update, delete, and organize tasks via a responsive web interface.',
+        tech: ['MongoDB', 'Express', 'React', 'Node'],
         color: 'from-emerald-600/30 to-teal-600/20',
-        icon: '⛅',
+        icon: '✅',
+        github: 'https://github.com/safran6ix',
     },
 ]
 
@@ -99,7 +103,7 @@ export default function Projects() {
 
                 <div className="text-center mt-12">
                     <a
-                        href="https://github.com/yourusername"
+                        href="https://github.com/safran6ix"
                         target="_blank"
                         rel="noreferrer"
                         className="inline-flex items-center gap-2 px-7 py-3 rounded-full border border-white/20 hover:border-cyan-400/50 hover:bg-white/5 transition"

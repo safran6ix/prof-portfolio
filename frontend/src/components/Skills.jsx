@@ -4,28 +4,28 @@ const skillGroups = [
     {
         title: 'Frontend',
         skills: [
-            { name: 'React', level: 90 },
-            { name: 'JavaScript', level: 92 },
-            { name: 'Tailwind CSS', level: 88 },
-            { name: 'HTML/CSS', level: 95 },
+            { name: 'React.js', level: 90 },
+            { name: 'Next.js', level: 82 },
+            { name: 'JavaScript', level: 88 },
+            { name: 'HTML5 / CSS3', level: 92 },
         ],
     },
     {
-        title: 'Backend',
+        title: 'Backend & Databases',
         skills: [
             { name: 'Node.js', level: 85 },
-            { name: 'Express', level: 82 },
-            { name: 'MongoDB', level: 80 },
-            { name: 'MySQL', level: 78 },
+            { name: 'Express.js', level: 84 },
+            { name: 'MongoDB', level: 82 },
+            { name: 'PostgreSQL', level: 78 },
         ],
     },
     {
-        title: 'Tools & Others',
+        title: 'DevOps & Tools',
         skills: [
-            { name: 'Git/GitHub', level: 88 },
-            { name: 'REST APIs', level: 85 },
-            { name: 'Java', level: 75 },
-            { name: 'Figma', level: 70 },
+            { name: 'AWS / AWS Aurora', level: 75 },
+            { name: 'Git / GitHub', level: 88 },
+            { name: 'Docker', level: 72 },
+            { name: 'Socket.IO / JWT', level: 80 },
         ],
     },
 ]
