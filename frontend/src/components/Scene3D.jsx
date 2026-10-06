@@ -87,4 +87,4 @@ export default function Scene3D() {
             </Suspense>
         </Canvas>
     )
-}
+} 
