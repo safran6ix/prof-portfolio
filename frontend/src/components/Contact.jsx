@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { motion } from 'framer-motion'
-import { FiMail, FiMapPin, FiPhone, FiSend } from 'react-icons/fi'
+import { FiMail, FiMapPin, FiSend } from 'react-icons/fi'
 
 export default function Contact() {
     const [form, setForm] = useState({ name: '', email: '', message: '' })
@@ -41,8 +41,7 @@ export default function Contact() {
                         className="md:col-span-2 space-y-4"
                     >
                         {[
-                            { icon: FiMail, label: 'Email', value: 'safran@example.com', href: 'mailto:safran@example.com' },
-                            { icon: FiPhone, label: 'Phone', value: '+94 XX XXX XXXX', href: 'tel:+94XXXXXXXXX' },
+                            { icon: FiMail, label: 'Email', value: 'mohammedsafran6ix@gmail.com', href: 'mailto:mohammedsafran6ix@gmail.com' },
                             { icon: FiMapPin, label: 'Location', value: 'Colombo, Sri Lanka', href: '#' },
                         ].map(({ icon: Icon, label, value, href }) => (
                             <a

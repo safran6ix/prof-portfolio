@@ -1,4 +1,4 @@
-import { FiGithub, FiLinkedin, FiMail, FiInstagram } from 'react-icons/fi'
+import { FiGithub, FiLinkedin, FiMail} from 'react-icons/fi'
 
 export default function Footer() {
     return (
@@ -11,10 +11,9 @@ export default function Footer() {
 
                 <div className="flex gap-4">
                     {[
-                        { icon: FiGithub, href: 'https://github.com/yourusername' },
-                        { icon: FiLinkedin, href: 'https://linkedin.com/in/yourusername' },
-                        { icon: FiInstagram, href: 'https://instagram.com/yourusername' },
-                        { icon: FiMail, href: 'mailto:safran@example.com' },
+                        { icon: FiGithub, href: 'https://github.com/safran6ix' },
+                        { icon: FiLinkedin, href: 'https://www.linkedin.com/in/safran-mohammed-985a412a0/' },
+                        { icon: FiMail, href: 'mailto:mohammedsafran6ix@gmail.com' },
                     ].map(({ icon: Icon, href }, i) => (
                         <a
                             key={i}
